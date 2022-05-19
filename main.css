@@ -346,6 +346,13 @@ body {
     background-color: #F9F9F9;
 }
 
+.home6m {
+    /* display: flex;
+    flex-wrap: wrap;
+    background-color: #F9F9F9; */
+    display: none;
+}
+
 .h6-col1 {
     width: 50%;
 }
@@ -1256,6 +1263,13 @@ body {
 
     .home7 {
         display: none;
+    }
+
+    .home6m {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #F9F9F9;
+        /* display: none; */
     }
 
     .h6-line1 {
