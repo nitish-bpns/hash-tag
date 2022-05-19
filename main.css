@@ -17,6 +17,7 @@ body {
     box-shadow: 0px 5px 3px -5px rgb(100, 100, 100);
     background-color: white;
     opacity: 0.9;
+    z-index: 200;
 }
 
 .navbar a {
@@ -1305,13 +1306,57 @@ body {
         margin: 9% 0 0 0;
     }
 
+    .h12-line2 {
+        width: 90%;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.231px;
+        color: #86868B;
+    }
 
+    .h13-line1 {
+        /* width: 179px; */
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        vertical-align: 4px;
+        margin: 0 1% 0 0;
+    }
 
+    .img19 {
+        margin: 2px 0 0 0;
+        width: 30%;
+    }
 
+    .h11-txt1 {
+        width: 255px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 68px;
+        letter-spacing: 0.576px;
+        color: #1D1D1F;
+    }
 
+    .img20 {
+        float: right;
+        margin: 13% 0 0 0;
+        cursor: pointer;
+    }
 
+    .img18 {
+        width: 192px;
+        margin: 9% 0 0 0;
+    }
 
+    .sup1 {
+        font-size: 7px;
+    }
 
+    .sup2 {
+        font-size: 12px;
+    }
 
 
 
