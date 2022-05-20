@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="buy.css" />
+    <link rel="stylesheet" type="text/css" href="buyOne.css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <title>HashTag</title>
 </head>
@@ -24,11 +24,11 @@
     <div class="buy1">
         <div class="b1-col1">
             <div class="b1-col1-i">
-                <img class="imgb1" id="prodt" src="./images/img22.png">
+                <img class="imgb1" id="prodt" src="./images/img26.png">
             </div>
             <br>
             <br>
-            <img class="img21" src="./images/img21.png">
+            <img id="bstick" class="img21" src="./images/img21.png">
 
 
         </div>
@@ -47,8 +47,13 @@
                 </span>
                 <br>
                 <br>
-                <span id="price" class="b1-l5">
+                <span id="price" class="b1d-l5">
+                    ₹999.00
                 </span>
+
+                <!-- <span id="price" class="b1m-l5">
+                    ₹999.00
+                </span> -->
                 <!-- <strike> -->
                 <span id="priceStrike" class="strike-pr">
                 </span>
@@ -57,23 +62,21 @@
                     Includes 2 Free Hash Stickers
                 </div>
 
+
             </div>
 
             <div class="b1-pack">
-                <div class="pack1" id="thumb1" onclick="myFunction1()">
-                    <a href="./buyOne.html">
-                        <img id="thumb1" src="./images/img23.png">
-                    </a>
+                <div class="pack-active" id="thumb1" onclick="myFunction1()">
+                    <img id="thumb1" src="./images/img23.png">
                     <div class="p-des">
                         1-Pack
                     </div>
-
                 </div>
 
                 <div id="thumb2" class="pack2">
-                    <a href="./buyTwo.html">
-                        <img src="./images/img24.png" onclick="myFunction2()">
-                    </a>
+                    <!-- <a href="./buyTwo.html"> -->
+                    <img src="./images/img24.png" onclick="myFunction2()">
+                    <!-- </a> -->
                     <div class="p-des2">
                         2-Pack
                     </div>
@@ -81,9 +84,9 @@
 
 
                 <div id="thumb3" class="pack3">
-                    <a href="./buyFour.html">
-                        <img src="./images/img25.png" onclick="myFunction3()">
-                    </a>
+                    <!-- <a href="./buyFour.html"> -->
+                    <img src="./images/img25.png" onclick="myFunction3()">
+                    <!-- </a> -->
                     <div class="p-des3">
                         4-Pack
                     </div>
@@ -92,7 +95,11 @@
             </div>
 
             <!-- <div class="pk-btn"> -->
-            <button class="btn5">Select Pack</button>
+            <button class="btn5-act">Continue</button>
+
+            <div style="display: block;" id="div1">div1</div>
+            <div style="display: none;" id="div2">div2</div>
+            <div style="display: none;" id="div3">div3</div>
             <!-- </div> -->
             <div class="p-des-li">
                 <div class="p-li">
@@ -312,35 +319,93 @@
 
 
 
-
-
-
-
-
-
-
-    <!-- 
     <script>
+        const targetDiv1 = document.getElementById("div1");
+        const targetDiv2 = document.getElementById("div2");
+        const targetDiv3 = document.getElementById("div3");
+
+        const btn2 = document.getElementById("thumb2");
+        btn2.onclick = function () {
+            targetDiv3.style.display = "none";
+            targetDiv1.style.display = "none";
+
+
+            if (targetDiv2.style.display !== "none") {
+                targetDiv2.style.display = "block";
+            } else {
+                targetDiv2.style.display = "block";
+            }
+        };
+        const btn1 = document.getElementById("thumb1");
+        btn1.onclick = function () {
+            targetDiv3.style.display = "none";
+            targetDiv2.style.display = "none";
+            document.getElementById("thumb1").style.backgroundColor = "#EEEEEE";
+            document.getElementById("thumb2").style.backgroundColor = "#FFFFFF";
+            document.getElementById("thumb3").style.backgroundColor = "#FFFFFF";
+            document.getElementById("prodt").src = "./images/img26.png";
+            document.getElementById("price").innerHTML = "₹999.00";
+            document.getElementById("priceStrike").innerHTML = " ";
+            document.getElementById("prd-count").innerHTML = "Includes 2 Free Hash Stickers";
+
+
+
+            if (targetDiv1.style.display !== "none") {
+                targetDiv1.style.display = "block";
+            } else {
+                targetDiv1.style.display = "block";
+            }
+        };
+        const btn = document.getElementById("thumb3");
+        btn.onclick = function () {
+            targetDiv2.style.display = "none";
+            targetDiv1.style.display = "none";
+
+
+            if (targetDiv3.style.display !== "none") {
+                targetDiv3.style.display = "block";
+            } else {
+                targetDiv3.style.display = "block";
+            }
+        };
+
+
+
+
+
+    </script>
+
+
+
+
+
+    <script>
+
+
         function myFunction1() {
             document.getElementById("prodt").src = "./images/img26.png";
+            document.getElementById("bstick").src = "./images/img21.png";
             document.getElementById("price").innerHTML = "₹999.00";
             document.getElementById("priceStrike").innerHTML = " ";
             document.getElementById("prd-count").innerHTML = "Includes 2 Free Hash Stickers";
             document.getElementById("thumb1").style.backgroundColor = "#EEEEEE";
             document.getElementById("thumb2").style.backgroundColor = "#FFFFFF";
-            document.getElementById("thumb3").style.backgroundColor = "#FFFFFF"
+            document.getElementById("thumb3").style.backgroundColor = "#FFFFFF";
         }
         function myFunction2() {
             document.getElementById("prodt").src = "./images/img27.png";
+            document.getElementById("bstick").src = "./images/img30.png";
             document.getElementById("price").innerHTML = "₹1799.00";
             document.getElementById("priceStrike").innerHTML = "(₹1999.00)";
             document.getElementById("prd-count").innerHTML = "Includes 4 Free Hash Stickers";
             document.getElementById("thumb2").style.backgroundColor = "#EEEEEE";
             document.getElementById("thumb1").style.backgroundColor = "#FFFFFF";
-            document.getElementById("thumb3").style.backgroundColor = "#FFFFFF"
+            document.getElementById("thumb3").style.backgroundColor = "#FFFFFF";
+            document.getElementsById("prodt").style.padding = "8% 25% 0 13%";
         }
         function myFunction3() {
             document.getElementById("prodt").src = "./images/img28.png";
+            document.getElementById("bstick").src = "./images/img31.png";
             document.getElementById("price").innerHTML = "₹3799.00";
             document.getElementById("priceStrike").innerHTML = "(₹3999.00)";
             document.getElementById("prd-count").innerHTML = "Includes 8 Free Hash Stickers";
@@ -348,7 +413,7 @@
             document.getElementById("thumb1").style.backgroundColor = "#FFFFFF";
             document.getElementById("thumb2").style.backgroundColor = "#FFFFFF";
         }
-    </script> -->
+    </script>
 
 </body>
 
