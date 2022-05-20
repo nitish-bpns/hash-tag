@@ -1044,7 +1044,7 @@ a::after {
         background-color: #EEEEEE;
     }
 
-    .b1d-l5 {
+    /* .b1d-l5 {
         width: 123px;
         font-weight: 400;
         font-size: 27px;
@@ -1052,6 +1052,9 @@ a::after {
         letter-spacing: 0.477465px;
         color: #DB3022;
         margin: 3% 0 0 15%;
+    } */
+    .b1d-l5 {
+        display: none;
     }
 
     .b1m-l5 {
@@ -1134,6 +1137,7 @@ a::after {
         margin-left: 10%;
     }
 
+    /* 
     .b1-l5 {
         width: 123px;
         font-weight: 400;
@@ -1142,11 +1146,11 @@ a::after {
         letter-spacing: 0.477465px;
         color: #DB3022;
         margin: 3% 0 0 14%;
-    }
-
-    /* .b1d-l5 {
-        display: none;
     } */
+
+    .b1d-l5 {
+        display: none;
+    }
 
     .b1m-l5 {
         width: 123px;
