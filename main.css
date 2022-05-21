@@ -9,6 +9,13 @@ body {
     margin: 0 0 0 0;
 }
 
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
 .navbar {
     overflow: hidden;
     position: fixed;
@@ -16,7 +23,7 @@ body {
     width: 100%;
     box-shadow: 0px 5px 3px -5px rgb(100, 100, 100);
     background-color: white;
-    opacity: 0.9;
+    opacity: 0.92;
     z-index: 200;
     padding-top: 5px;
 }
@@ -791,6 +798,11 @@ body {
     float: left;
 }
 
+.sl {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
 
 
 
@@ -1480,13 +1492,13 @@ body {
     }
 
     .img2 {
-        margin: 12% 0 -1% 13%;
+        margin: 12% 0 -1% 9.5%;
         height: auto;
         width: 75%;
     }
 
     .right-hm2 {
-        padding: 15% 0% 12% 10%;
+        padding: 15% 0% 12% 14%;
         width: 80%;
     }
 
@@ -1514,7 +1526,7 @@ body {
         font-family: Roboto;
         font-size: 14px;
         border: none;
-        margin: 0px 0 0 -5%;
+        margin: 0px 0 0 -10%;
         background-color: red;
         border-radius: 16px;
         color: white;
@@ -1542,7 +1554,7 @@ body {
     }
 
     .h4-line1 {
-        width: 100%;
+        width: 93%;
         font-weight: 600;
         font-size: 28px;
         line-height: 46px;
@@ -1564,7 +1576,7 @@ body {
     }
 
     .h4-line2 {
-        width: 90%;
+        width: 93%;
         font-weight: 600;
         font-size: 14px;
         line-height: 17px;
@@ -1607,7 +1619,7 @@ body {
 
     .h5-col2 {
         width: 100%;
-        padding: 8% 6% 10% 18%;
+        padding: 8% 6% 10% 19%;
     }
 
     .h5-col2 img {
@@ -1623,13 +1635,13 @@ body {
     }
 
     .h6-col1 img {
-        margin: 12% 0 0 24%;
+        margin: 12% 0 0 23.7%;
         width: 67%;
     }
 
     .h6-col2 {
         width: 100%;
-        padding: 4% 0% 4% 4%;
+        padding: 4% 0% 4% 6%;
     }
 
     .home7 {
@@ -1644,7 +1656,7 @@ body {
     }
 
     .h6-line1 {
-        width: 100%;
+        width: 93%;
         font-weight: 800;
         font-size: 27px;
         line-height: 40px;
@@ -1748,7 +1760,7 @@ body {
     }
 
     .img18 {
-        width: 192px;
+        width: 189px;
         margin: 3% 0 0 0;
     }
 
@@ -1780,12 +1792,12 @@ body {
         font-size: 12px;
         line-height: 16px;
         vertical-align: 4px;
-        margin: 0 1% 0 25px;
+        margin: 0 30% 0 15%;
     }
 
     .ft-col2 {
         width: 100%;
-        padding: 5% 0 0 17%;
+        padding: 5% 0 0 13%;
     }
 
     .ft-line2 {
@@ -1888,6 +1900,59 @@ body {
         /* margin: 4% 0 4% 0; */
 
     }
+
+    .panel {
+        padding: 0 18px;
+        background-color: #F9F9F9;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        text-align: left;
+        /* color: grey; */
+        width: 93%;
+        margin-left: 0%;
+    }
+
+    .imgb19 {
+        margin: 0 0 0 -2.5%;
+    }
+
+    .img19 {
+        margin: 2px 0 0 0;
+        width: 85%;
+    }
+
+    .sl {
+        margin-right: 8px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 385px) {
+    .hash {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 6px 16px;
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: 600;
+        margin: 0 30% 0 1%;
+    }
+
+
+
+
 
 
 

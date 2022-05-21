@@ -16,7 +16,7 @@ body {
     width: 100%;
     box-shadow: 0px 5px 3px -5px rgb(100, 100, 100);
     background-color: white;
-    opacity: 0.9;
+    opacity: 0.92;
     z-index: 200;
     padding-top: 5px;
 }
@@ -31,6 +31,13 @@ body {
 .nlogo {
     height: 2rem;
     width: auto;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
 }
 
 .hash {
@@ -638,6 +645,10 @@ a::after {
     cursor: pointer;
 }
 
+.sl {
+    margin-right: 15px;
+    cursor: pointer;
+}
 
 
 
@@ -1000,14 +1011,14 @@ a::after {
         width: auto;
         height: 135px;
         float: left;
-        padding: 15% 31% 0 68%;
+        padding: 15% 31% 0 66%;
     }
 
     .imgb1four {
         width: auto;
         height: 135px;
         float: left;
-        padding: 15% 31% 0 37%;
+        padding: 15% 31% 0 38%;
     }
 
 
@@ -1015,7 +1026,7 @@ a::after {
         width: auto;
         height: 135px;
         float: left;
-        padding: 15% 31% 0 51%;
+        padding: 15% 31% 0 54%;
     }
 
     .img21 {
@@ -1027,7 +1038,7 @@ a::after {
     .img21one {
         float: left;
         width: 248px;
-        margin: 8% 17% 0% 37%;
+        margin: 8% 17% 0% 38%;
     }
 
 
@@ -1058,7 +1069,7 @@ a::after {
         font-size: 16px;
         line-height: 25px;
         color: #D2391D;
-        margin: 0 0 0 23%;
+        margin: 0 0 0 22%;
     }
 
     .b1-l12 {
@@ -1076,7 +1087,7 @@ a::after {
         font-size: 16px;
         line-height: 25px;
         color: #D2391D;
-        margin: 0 0 0 12%;
+        margin: 0 0 0 11%;
     }
 
     .b1-l2 {
@@ -1085,7 +1096,7 @@ a::after {
         font-style: normal;
         line-height: 34px;
         letter-spacing: 0.26px;
-        margin: 1.8% 0 .8% 22%;
+        margin: 1.8% 0 .8% 23%;
     }
 
     .b1-l3 {
@@ -1093,7 +1104,7 @@ a::after {
         font-size: 20px;
         line-height: 36px;
         letter-spacing: 0.231px;
-        margin: 0 0 0 14%;
+        margin: 0 0 0 15%;
     }
 
     .b1-l4 {
@@ -1102,7 +1113,7 @@ a::after {
         font-size: 20px;
         line-height: 25px;
         color: #5B5B5B;
-        margin: 0% 0 3% 6%;
+        margin: 0% 0 3% 7%;
     }
 
     .b1-pack {
@@ -1181,7 +1192,7 @@ a::after {
 
     .h6-col2 {
         width: 90%;
-        padding: 4% 0% 4% 4%;
+        padding: 4% 0% 4% 5%;
     }
 
     .c-ques {
@@ -1241,7 +1252,7 @@ a::after {
         font-size: 12px;
         line-height: 16px;
         vertical-align: 4px;
-        margin: 0 1% 0 25px;
+        margin: 0 30% 0 15%;
     }
 
     .ft-col2 {
@@ -1269,7 +1280,7 @@ a::after {
 
     .imgb18 {
         width: 189px;
-        margin: 0 0 0 18%;
+        margin: 0 0 0 17%;
     }
 
     .pack-active {
@@ -1302,7 +1313,7 @@ a::after {
         line-height: 36px;
         letter-spacing: 0.477465px;
         color: #000000;
-        margin: 1% 0 0 28%;
+        margin: 1% 0 0 30%;
     }
 
     .ft-col2 {
@@ -1362,6 +1373,11 @@ a::after {
         margin-left: -7%;
         font-size: 13px;
     }
+
+    .sl {
+        margin-right: 8px;
+    }
+
 
 
 
