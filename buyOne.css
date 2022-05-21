@@ -12,11 +12,12 @@ body {
 .navbar {
     overflow: hidden;
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
     box-shadow: 0px 5px 3px -5px rgb(100, 100, 100);
     background-color: white;
     opacity: 0.9;
+    padding-top: 5px;
 }
 
 .navbar a {
@@ -26,6 +27,10 @@ body {
     text-decoration: none;
 }
 
+.nlogo {
+    height: 2rem;
+    width: auto;
+}
 
 .hash {
     color: rgb(0, 0, 0);
@@ -43,11 +48,12 @@ body {
     font-size: 19px;
     border: none;
     margin: 16px 0 0 0;
-    background-color: red;
+    background-color: white;
     border-radius: 16px;
-    color: white;
+    color: #DB3022;
     padding: 3px 15px 3px 15px;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .buy1 {
@@ -73,7 +79,20 @@ body {
     padding: 0 8% 0 20%
 }
 
+.imgb1one {
+    width: auto;
+    height: 290px;
+    float: right;
+    padding: 0 8% 0 20%
+}
+
 .img21 {
+    float: right;
+    width: 325px;
+    margin: 8% 7% 0 0;
+}
+
+.img21one {
     float: right;
     width: 325px;
     margin: 8% 7% 0 0;
@@ -91,6 +110,7 @@ body {
     line-height: 21px;
     color: #D2391D;
 }
+
 
 .b1-l2 {
     font-size: 37px;
@@ -138,7 +158,7 @@ body {
     font-size: 27px;
     line-height: 36px;
     letter-spacing: 0.477465px;
-    color: #DB3022;
+    color: #000000;
     margin: 3% 0 0 0;
 }
 
@@ -241,6 +261,14 @@ a::after {
     margin: 3% 0 0 18%;
 }
 
+.sfy-btn {
+    margin: 5px 0 0 -4rem !important;
+}
+
+/* .shopify-buy__btn {
+    margin: 0 0 0 -7rem !important;
+
+} */
 
 .btn5 {
     font-size: 18px;
@@ -276,6 +304,14 @@ a::after {
     color: #55565A;
 }
 
+.p-li2 {
+    width: 412px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #55565A;
+}
+
 .home6 {
     display: flex;
     flex-wrap: wrap;
@@ -287,12 +323,12 @@ a::after {
 }
 
 .h6-col1 img {
-    margin: 12% 0 0 40%;
+    margin: 0% 0 0 40%;
 }
 
 .h6-col2 {
     width: 40%;
-    padding: 12% 0 0 4%;
+    padding: 0% 0 0 4%;
 }
 
 .h6-line1 {
@@ -334,8 +370,8 @@ a::after {
 }
 
 .ques-row {
-    padding: 2% 0 0% 0;
-    margin: 0 0 2.5% 0;
+    padding: 2.3% 0 2% 0;
+    margin: 0 0 1% 0;
 }
 
 .ques-txt {
@@ -350,9 +386,12 @@ a::after {
     float: right;
 }
 
+
 .hr-line {
     color: grey;
+    margin: 1.2rem 0 0.2rem 0px;
 }
+
 
 .home10 {
     padding: 0 0 4% 0;
@@ -503,6 +542,77 @@ a::after {
     margin: 0 1% 0 0;
 }
 
+.accordion {
+    background-color: #fff;
+    color: rgb(31, 31, 31);
+    cursor: pointer;
+    padding: 0;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.accordion:after {
+    content: url(./images/down.png);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    float: right;
+    margin: -1.5rem 5px 0rem 0;
+}
+
+.active:after {
+    content: url(./images/up.png);
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: left;
+    color: grey;
+    width: 90%;
+    margin-left: -7%;
+    font-size: 17px;
+}
+
+.h13-linef {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 0.576px;
+    color: #000000;
+    margin: 4% 0 0 0;
+}
+
+.h13-linef2 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 60px;
+    letter-spacing: 0.576px;
+    color: #1D1D1F;
+}
+
+.btn3 {
+    font-size: 17px;
+    border: none;
+    margin: -13px 0 0 0;
+    background-color: red;
+    border-radius: 16px;
+    color: white;
+    padding: 7px 15px 7px 15px;
+    cursor: pointer;
+}
 
 
 
@@ -510,6 +620,15 @@ a::after {
 
 
 
+
+
+
+
+
+
+
+
+}
 
 
 @media screen and (max-width: 900px) {
@@ -579,7 +698,7 @@ a::after {
     }
 
     .h6-col1 img {
-        margin: 12% 0 0 13%;
+        margin: 0% 0 0 13%;
     }
 
     .h6-line1 {
@@ -690,6 +809,7 @@ a::after {
 
     .imgb18 {
         width: 200px;
+        margin: 0 0 0 0;
     }
 
     .ft-line1 {
@@ -817,17 +937,29 @@ a::after {
         padding: 8% 25% 0 13%;
     } */
 
-    .imgb1 {
+    /* .imgb1 {
         width: auto;
         height: 135px;
         float: right;
         padding: 8% 31% 0 13%;
+    } */
+    .imgb1one {
+        width: auto;
+        height: 135px;
+        float: left;
+        padding: 15% 31% 0 68%;
     }
 
     .img21 {
         float: right;
         width: 248px;
         margin: 8% 17% 0% 0;
+    }
+
+    .img21one {
+        float: left;
+        width: 248px;
+        margin: 8% 17% 0% 37%;
     }
 
     .b1-col2 {
@@ -843,6 +975,14 @@ a::after {
         color: #55565A;
     }
 
+    .p-li2 {
+        width: 90%;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        color: #55565A;
+    }
+
     .b1-l1 {
         width: 100%;
         font-weight: 400;
@@ -850,6 +990,15 @@ a::after {
         line-height: 25px;
         color: #D2391D;
         margin: 0 0 0 23%;
+    }
+
+    .b1-l12 {
+        width: 100%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #D2391D;
+        margin: 0 0 0 12%;
     }
 
     .b1-l2 {
@@ -1028,11 +1177,12 @@ a::after {
         font-size: 12px;
         line-height: 16px;
         vertical-align: 12px;
-        margin: 0 1% 0 -4%;
+        margin: 0 1% 0 13%;
     }
 
     .imgb18 {
-        width: 188px;
+        width: 189px;
+        margin: 0 0 0 18%;
     }
 
     .pack-active {
@@ -1064,9 +1214,102 @@ a::after {
         font-size: 27px;
         line-height: 36px;
         letter-spacing: 0.477465px;
-        color: #DB3022;
-        margin: 3% 0 0 25%;
+        color: #000000;
+        margin: 1% 0 0 25%;
     }
+
+    .ft-col2 {
+        width: 100%;
+        padding: 5% 0 0 1%;
+    }
+
+    .h13-linef {
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 52px;
+        text-align: center;
+        letter-spacing: 0.576px;
+        color: #000000;
+        margin: 4% 0 0 0;
+    }
+
+    .h13-linef2 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 40px;
+        letter-spacing: 0.576px;
+        color: #1D1D1F;
+    }
+
+    .sfy-btn {
+        margin: 5px 0 0 1rem !important;
+    }
+
+    .accordion:after {
+        content: url(./images/down.png);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        float: right;
+        margin: -4px 5px 0rem 0;
+    }
+
+    .ques-row {
+        padding: 0% 0 0% 0;
+        margin: 14px 0 0 0;
+    }
+
+    .hr-line {
+        color: grey;
+        margin: 0.9rem 0 0.2rem 0px;
+    }
+
+    .panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        text-align: left;
+        color: grey;
+        width: 90%;
+        margin-left: -7%;
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
@@ -1158,11 +1401,21 @@ a::after {
         font-size: 27px;
         line-height: 36px;
         letter-spacing: 0.477465px;
-        color: #DB3022;
+        color: #000000;
         margin: 3% 0 0 14%;
     }
 
+    .accordion:after {
+        content: url(./images/down.png);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        float: right;
+        margin: -10px 5px 0rem 0;
+    }
 
+    .sfy-btn {
+        margin: 5px 0 0 1rem !important;
+    }
 
 
 }
