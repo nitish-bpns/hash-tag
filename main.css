@@ -74,6 +74,10 @@ body {
     padding: 0 0 3rem 0;
 }
 
+.h-base {
+    display: none;
+}
+
 .prdt1 {
     margin: 8% 0 3% 0;
 }
@@ -189,6 +193,17 @@ body {
     line-height: 84px;
     text-align: center;
     letter-spacing: 1.2px;
+}
+
+.vline {
+
+    font-weight: 400;
+    font-size: 55px;
+    /* line-height: 100px; */
+    text-align: center;
+    letter-spacing: 2px;
+    /* margin: 4% 0 4% 0; */
+
 }
 
 .line8 {
@@ -1073,7 +1088,7 @@ body {
         font-size: 33px;
         /* line-height: 100px; */
         text-align: center;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         /* margin: 4% 0 4% 0; */
     }
 
@@ -1454,14 +1469,20 @@ body {
         margin: 0 0 2% 0;
     }
 
+    .h-base {
+        display: block;
+        background-color: #F9F9F9;
+        margin-top: 0px;
+    }
+
     .col1-hm2 {
         width: 99%;
     }
 
     .img2 {
-        margin: 12% 0 0% 20%;
+        margin: 12% 0 -1% 13%;
         height: auto;
-        width: 55%;
+        width: 75%;
     }
 
     .right-hm2 {
@@ -1506,7 +1527,7 @@ body {
         font-size: 25px;
         line-height: 40px;
         text-align: center;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         /* margin: 4% 0 4% 0; */
     }
 
@@ -1544,7 +1565,7 @@ body {
 
     .h4-line2 {
         width: 90%;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 14px;
         line-height: 17px;
         letter-spacing: 0.231px;
@@ -1576,12 +1597,12 @@ body {
 
     .h5-col1 {
         width: 100%;
-        padding-left: 28%;
+        padding-left: 24%;
     }
 
     .h5-col1 img {
         width: auto;
-        height: 330px;
+        height: 416px;
     }
 
     .h5-col2 {
@@ -1602,8 +1623,8 @@ body {
     }
 
     .h6-col1 img {
-        margin: 12% 0 0 27%;
-        width: 55%;
+        margin: 12% 0 0 24%;
+        width: 67%;
     }
 
     .h6-col2 {
@@ -1634,12 +1655,29 @@ body {
     .hash {
         color: rgb(0, 0, 0);
         text-align: center;
-        padding: 14px 16px;
+        padding: 6px 16px;
         text-decoration: none;
         font-family: Roboto;
         font-size: 25px;
         font-weight: 600;
-        margin: 0 28% 0 1%;
+        margin: 0 35% 0 1%;
+    }
+
+    .buy-btn {
+        font-family: Roboto;
+        font-size: 12px;
+        border: none;
+        margin: 9px 0 0 0;
+        background-color: red;
+        border-radius: 18px;
+        color: white;
+        padding: 8px 20px 8px 20px;
+        cursor: pointer;
+    }
+
+    .nlogo {
+        height: 1.8rem;
+        width: auto;
     }
 
     .line7 {
@@ -1810,7 +1848,7 @@ body {
     .acc-bcol2 {
         width: 94%;
         /* float: left; */
-        padding: 4% 0 0 0px;
+        padding: 4% 0 16px 0px;
         text-align: center;
     }
 
@@ -1822,12 +1860,13 @@ body {
     }
 
     .acc-des1 {
-        width: 50%;
+        width: 45%;
         font-weight: 600;
         font-size: 16px;
         line-height: 19px;
         color: #55565A;
         float: left;
+        margin-right: 5%;
     }
 
     .acc-des2 {
@@ -1839,6 +1878,16 @@ body {
         float: left;
     }
 
+    .vline {
+
+        font-weight: 400;
+        font-size: 55px;
+        /* line-height: 100px; */
+        text-align: center;
+        letter-spacing: 2px;
+        /* margin: 4% 0 4% 0; */
+
+    }
 
 
 

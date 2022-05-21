@@ -17,6 +17,7 @@ body {
     box-shadow: 0px 5px 3px -5px rgb(100, 100, 100);
     background-color: white;
     opacity: 0.9;
+    z-index: 200;
     padding-top: 5px;
 }
 
@@ -86,6 +87,21 @@ body {
     padding: 0 8% 0 20%
 }
 
+.imgb1four {
+    width: auto;
+    height: 290px;
+    float: right;
+    padding: 0 8% 0 20%
+}
+
+.imgb1two {
+    width: auto;
+    height: 290px;
+    float: right;
+    padding: 0 8% 0 20%
+}
+
+
 .img21 {
     float: right;
     width: 325px;
@@ -104,6 +120,14 @@ body {
 }
 
 .b1-l1 {
+    width: 205px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #D2391D;
+}
+
+.b1-l12 {
     width: 205px;
     font-weight: 400;
     font-size: 18px;
@@ -148,7 +172,7 @@ body {
     font-size: 27px;
     line-height: 36px;
     letter-spacing: 0.477465px;
-    color: #DB3022;
+    color: #000000;
     margin: 3% 0 0 0;
 }
 
@@ -909,8 +933,8 @@ a::after {
         font-size: 27px;
         line-height: 36px;
         letter-spacing: 0.477465px;
-        color: #DB3022;
-        margin: 3% 0 0 14%;
+        color: #000000;
+        margin: 3% 0 0 16%;
     }
 
 
@@ -919,7 +943,7 @@ a::after {
 }
 
 @media screen and (max-width: 450px) {
-    .hash {
+    /* .hash {
         color: rgb(0, 0, 0);
         text-align: center;
         padding: 14px 16px;
@@ -927,7 +951,36 @@ a::after {
         font-family: Roboto;
         font-size: 25px;
         font-weight: 600;
-        margin: 0 16% 0 13%;
+        margin: 0 38% 0 1%;
+    } */
+
+
+    .hash {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 6px 16px;
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: 600;
+        margin: 0 35% 0 1%;
+    }
+
+    .buy-btn {
+        font-family: Roboto;
+        font-size: 18px;
+        border: none;
+        margin: 1px 0 0 0;
+        /* background-color: red; */
+        border-radius: 18px;
+        color: red;
+        padding: 8px 20px 8px 20px;
+        cursor: pointer;
+    }
+
+    .nlogo {
+        height: 1.8rem;
+        width: auto;
     }
 
     /* .imgb1 {
@@ -950,6 +1003,21 @@ a::after {
         padding: 15% 31% 0 68%;
     }
 
+    .imgb1four {
+        width: auto;
+        height: 135px;
+        float: left;
+        padding: 15% 31% 0 37%;
+    }
+
+
+    .imgb1two {
+        width: auto;
+        height: 135px;
+        float: left;
+        padding: 15% 31% 0 51%;
+    }
+
     .img21 {
         float: right;
         width: 248px;
@@ -961,6 +1029,7 @@ a::after {
         width: 248px;
         margin: 8% 17% 0% 37%;
     }
+
 
     .b1-col2 {
         width: 100%;
@@ -990,6 +1059,15 @@ a::after {
         line-height: 25px;
         color: #D2391D;
         margin: 0 0 0 23%;
+    }
+
+    .b1-l12 {
+        width: 100%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #D2391D;
+        margin: 0 0 0 12%;
     }
 
     .b1-l12 {
@@ -1180,6 +1258,15 @@ a::after {
         margin: 0 1% 0 13%;
     }
 
+    .ft-line2new {
+        /* width: 179px; */
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        vertical-align: 12px;
+        margin: 0 1% 0 0%;
+    }
+
     .imgb18 {
         width: 189px;
         margin: 0 0 0 18%;
@@ -1215,12 +1302,12 @@ a::after {
         line-height: 36px;
         letter-spacing: 0.477465px;
         color: #000000;
-        margin: 1% 0 0 25%;
+        margin: 1% 0 0 28%;
     }
 
     .ft-col2 {
         width: 100%;
-        padding: 5% 0 0 1%;
+        padding: 0% 0 0 1%;
     }
 
     .h13-linef {
@@ -1235,7 +1322,7 @@ a::after {
 
     .h13-linef2 {
         font-weight: 400;
-        font-size: 14px;
+        font-size: 17px;
         line-height: 40px;
         letter-spacing: 0.576px;
         color: #1D1D1F;
