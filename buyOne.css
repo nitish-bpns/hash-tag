@@ -48,7 +48,7 @@ a:active {
     font-family: Roboto;
     font-size: 25px;
     font-weight: 600;
-    margin: 0 45% 0 20%;
+    margin: 0 46.5% 0 19%;
 }
 
 .buy-btn {
@@ -85,6 +85,10 @@ a:active {
     height: 290px;
     float: right;
     padding: 0 8% 0 20%
+}
+
+.linebreak {
+    padding-bottom: 1rem;
 }
 
 .imgb1one {
@@ -160,6 +164,15 @@ a:active {
     letter-spacing: 0.231px;
 }
 
+.b1-l3p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.231px;
+    color: #5B5B5B;
+    /* color: #D2391D; */
+}
+
 .b1-l4 {
     width: 363px;
     font-weight: 400;
@@ -179,7 +192,7 @@ a:active {
     font-size: 27px;
     line-height: 36px;
     letter-spacing: 0.477465px;
-    color: #000000;
+    color: #D2391D;
     margin: 3% 0 0 0;
 }
 
@@ -189,9 +202,20 @@ a:active {
     font-size: 27px;
     line-height: 36px;
     letter-spacing: 0.477465px;
-    color: #000000;
+    color: #D2391D;
     margin: 3% 0 0 0;
 }
+
+.b1-zero {
+    width: 123px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.477465px;
+    color: #D2391D;
+    margin: 3% 0 0 -1%;
+}
+
 
 
 
@@ -354,12 +378,12 @@ a::after {
 }
 
 .h6-col1 img {
-    margin: 0% 0 0 40%;
+    margin: 0% 0 0 38.5%;
 }
 
 .h6-col2 {
     width: 40%;
-    padding: 0% 0 0 4%;
+    padding: 4% 0 0 0%;
 }
 
 .h6-line1 {
@@ -546,6 +570,11 @@ a::after {
 }
 
 .ft-col2 {
+    width: 50%;
+    /* padding: 0 0 0 9%; */
+}
+
+.ft-col2new {
     width: 50%;
     /* padding: 0 0 0 9%; */
 }
@@ -944,8 +973,8 @@ a::after {
         font-size: 27px;
         line-height: 36px;
         letter-spacing: 0.477465px;
-        color: #000000;
-        margin: 3% 0 0 16%;
+        color: #D2391D;
+        margin: 3% 0 0 33%;
     }
 
 
@@ -981,7 +1010,7 @@ a::after {
         font-family: Roboto;
         font-size: 18px;
         border: none;
-        margin: 1px 0 0 0;
+        margin: 1px 0 0 32%;
         /* background-color: red; */
         border-radius: 18px;
         color: red;
@@ -1087,7 +1116,7 @@ a::after {
         font-size: 16px;
         line-height: 25px;
         color: #D2391D;
-        margin: 0 0 0 11%;
+        margin: 0 0 0 12%;
     }
 
     .b1-l2 {
@@ -1105,6 +1134,16 @@ a::after {
         line-height: 36px;
         letter-spacing: 0.231px;
         margin: 0 0 0 15%;
+    }
+
+    .b1-l3p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        letter-spacing: 0.231px;
+        margin: 0 0 0 32.5%;
+        color: #5B5B5B;
+        /* color: #D2391D; */
     }
 
     .b1-l4 {
@@ -1260,6 +1299,11 @@ a::after {
         padding: 5% 0 0 17%;
     }
 
+    .ft-col2new {
+        width: 100%;
+        padding: 5% 0 0 17%;
+    }
+
     .ft-line2 {
         /* width: 179px; */
         font-weight: 600;
@@ -1312,11 +1356,16 @@ a::after {
         font-size: 27px;
         line-height: 36px;
         letter-spacing: 0.477465px;
-        color: #000000;
+        color: #D2391D;
         margin: 1% 0 0 30%;
     }
 
     .ft-col2 {
+        width: 100%;
+        padding: 5% 0 0 1%;
+    }
+
+    .ft-col2new {
         width: 100%;
         padding: 0% 0 0 1%;
     }
@@ -1376,6 +1425,27 @@ a::after {
 
     .sl {
         margin-right: 8px;
+    }
+
+    .b1-zero {
+        width: 123px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.477465px;
+        color: #D2391D;
+        margin: 3% 0 0 -2%;
+    }
+
+    .btn3 {
+        font-size: 13px;
+        border: none;
+        margin: -13px 0 0 0;
+        background-color: red;
+        border-radius: 16px;
+        color: white;
+        padding: 7px 15px 7px 15px;
+        cursor: pointer;
     }
 
 
@@ -1504,7 +1574,7 @@ a::after {
         font-size: 27px;
         line-height: 36px;
         letter-spacing: 0.477465px;
-        color: #000000;
+        color: #D2391D;
         margin: 3% 0 0 14%;
     }
 

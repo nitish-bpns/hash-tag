@@ -168,6 +168,11 @@ a:active {
     color: #86868B;
 }
 
+.gap-h {
+    background-color: #F9F9F9;
+    margin-top: -2px;
+}
+
 .btn2 {
     font-family: Roboto;
     font-size: 17px;
@@ -237,8 +242,8 @@ a:active {
 }
 
 .img3 {
-    width: 68%;
-    margin: 5% 0 0 0;
+    width: 59.5%;
+    margin: 5% 0 0 2%;
 }
 
 .home3-col {
@@ -351,8 +356,8 @@ a:active {
 }
 
 .h5-col1 {
-    width: 28%;
-    padding-left: 8%;
+    width: 22%;
+    padding-left: 15%;
 }
 
 .h5-col1 img {
@@ -361,7 +366,7 @@ a:active {
 }
 
 .h5-col3 {
-    width: 37%;
+    width: 30%;
 }
 
 .h5-col3 img {
@@ -371,8 +376,9 @@ a:active {
 
 .h5-col2 {
     width: 28%;
-    padding: 15% 3% 0% 0;
+    padding: 11% 3% 0% 1%;
 }
+
 
 .h5-col2 img {
     width: 404px;
@@ -396,7 +402,7 @@ a:active {
 }
 
 .h6-col1 img {
-    margin: 12% 0 0 40%;
+    margin: 12% 0 0 42%;
     width: auto;
 }
 
@@ -413,12 +419,12 @@ a:active {
 
 .h7-col1 {
     width: 31%;
-    padding: 12% 0 0 18%;
+    padding: 12% 0 0 21%;
 }
 
 .h7-col2 {
     width: 30%;
-    padding: 2% 0 0 11%;
+    padding: 2% 0 0 10%;
 }
 
 .h7-col2 img {
@@ -860,7 +866,7 @@ a:active {
         width: 120px;
     }
 
-    .btn21 {
+    /* .btn21 {
         font-family: Roboto;
         font-size: 17px;
         border: none;
@@ -870,6 +876,10 @@ a:active {
         color: white;
         padding: 7px 15px 7px 15px;
         width: 120px;
+    } */
+
+    .btn21 {
+        display: none;
     }
 
     .hash {
@@ -1651,7 +1661,7 @@ a:active {
     .home6m {
         display: flex;
         flex-wrap: wrap;
-        background-color: #F9F9F9;
+        background-color: #ffffff;
         /* display: none; */
     }
 
@@ -1695,7 +1705,7 @@ a:active {
     .line7 {
         font-weight: 400;
         font-size: 34px;
-        line-height: 84px;
+        line-height: 55px;
         text-align: center;
         letter-spacing: 1.2px;
     }
@@ -1703,7 +1713,7 @@ a:active {
     .line8 {
         font-weight: 800;
         font-size: 34px;
-        line-height: 75px;
+        line-height: 55px;
         text-align: center;
         letter-spacing: 2px;
     }
@@ -1717,7 +1727,7 @@ a:active {
 
     .img3 {
         width: 68%;
-        margin: 9% 0 0 0;
+        margin: 2% 0 0 0;
     }
 
     .h12-line2 {
@@ -1926,6 +1936,13 @@ a:active {
         margin-right: 8px;
     }
 
+    /* .gap-h {
+        background-color: #F9F9F9;
+        margin-top: -2px;
+    } */
+    .gap-h {
+        display: none;
+    }
 
 
 
